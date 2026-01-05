@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://d0bvtsag8bb02"]
+
+[ext_resource type="Script" uid="uid://bv1og2m2ukgo3" path="res://scenes/characters/character.gd" id="1_pjt0s"]
+[ext_resource type="Texture2D" uid="uid://cjfebwvifmb5c" path="res://assets/charSprites/baseModel.png" id="2_wa5vi"]
+[ext_resource type="Script" uid="uid://hbmde0prvafw" path="res://scenes/characters/character_model.gd" id="2_wfnr8"]
+[ext_resource type="Texture2D" uid="uid://d27aslmqp7nup" path="res://assets/charSprites/hairAtlas.png" id="4_wfnr8"]
+
+[node name="Character" type="Node2D"]
+script = ExtResource("1_pjt0s")
+
+[node name="CharacterModel" type="Node2D" parent="."]
+position = Vector2(0, -7)
+script = ExtResource("2_wfnr8")
+
+[node name="BaseSprite" type="Sprite2D" parent="CharacterModel"]
+texture = ExtResource("2_wa5vi")
+
+[node name="ShoeSprite" type="Sprite2D" parent="CharacterModel"]
+
+[node name="BottomSprite" type="Sprite2D" parent="CharacterModel"]
+
+[node name="TopSprite" type="Sprite2D" parent="CharacterModel"]
+
+[node name="EyeSprite" type="Sprite2D" parent="CharacterModel"]
+
+[node name="HairSprite" type="Sprite2D" parent="CharacterModel"]
+position = Vector2(0, -8)
+scale = Vector2(1, 1.0384616)
+texture = ExtResource("4_wfnr8")
+region_enabled = true
+region_rect = Rect2(0, 0, 12, 13)
