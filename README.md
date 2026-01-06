@@ -1,4 +1,5 @@
 # Mayor-Simulation-Game
+**Links** : [Executable File](https://drive.google.com/drive/folders/1VgnvR0E7NHgitLWCWsU2q8_cvIIBwomG?usp=drive_link)
 
 ## **Step 1** - Terrain Generation
 <table>
@@ -22,3 +23,4 @@
         </td>
     </tr>
 </table>
+
